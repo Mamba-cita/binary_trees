@@ -15,3 +15,4 @@ int binary_tree_is_full(const binary_tree_t *node)
 		return (binary_tree_is_full(node->left) && binary_tree_is_full(node->right));
 	return (0);
 }
+
